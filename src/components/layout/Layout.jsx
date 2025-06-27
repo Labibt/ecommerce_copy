@@ -1,6 +1,6 @@
 
-import Footer from '../footer/footer'
-import Navbar from '../navbar/navbar'
+import Footer from '../footer/Footer.jsx'
+import Navbar from '../navbar/Navbar.jsx'
 
 export default function Layout({children}) {
   return (

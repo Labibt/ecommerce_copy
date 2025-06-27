@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import Category from "../../components/category/Category";
-import HeroSection from "../../components/herosection/HeroSection";
+import HeroSection from "/home/user/ecommycopy/src/components/heroSection/HeroSection.jsx";
 import HomePageProductCard from "../../components/homePageProductCard/HomePageProductCard";
 import Layout from "../../components/layout/Layout";
 import Testimonial from "../../components/testimonial/Testimonial";
@@ -22,5 +22,5 @@ export default function HomePage() {
         <Testimonial/>
         <Loader/>
     </Layout>
-  )
+  );
 }

@@ -1,3 +1,4 @@
+jsx
 import { useNavigate } from "react-router";
 import Layout from "../../components/layout/Layout";
 import { useContext, useEffect } from "react";
@@ -39,7 +40,6 @@ const AllProduct = () => {
             <div className="">
                 <h1 className=" text-center mb-5 text-2xl font-semibold">All Products</h1>
             </div>
-
             {/* main  */}
             <section className="text-gray-600 body-font">
                 <div className="container px-5 lg:px-0 py-5 mx-auto">
@@ -57,7 +57,6 @@ const AllProduct = () => {
                                         />
                                         <div className="p-6">
                                             <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
-                                                E-bharat
                                             </h2>
                                             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                                                 {title.substring(0, 25)}
@@ -65,19 +64,18 @@ const AllProduct = () => {
                                             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                                                 ₹{price}
                                             </h1>
-
                                             <div
                                                 className="flex justify-center ">
-                                                {cartItems.some((p)=> p.id === item.id) 
-                                                
+                                                {cartItems.some((p)=> p.id === item.id)
+
                                                 ?
                                                 <button
                                                     onClick={() => deleteCart(item)}
                                                     className=" bg-red-700 hover:bg-pink-600 w-full text-white py-[4px] rounded-lg font-bold">
-                                                    Delete To Cart
+                                                    Delete From Cart
                                                 </button>
 
-                                                : 
+                                                :
 
                                                 <button
                                                     onClick={() => addCart(item)}
