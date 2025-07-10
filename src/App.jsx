@@ -16,7 +16,7 @@ import UserDashboard from "./pages/user/UserDashboard";
 import AdminDashboard from "./pages/admin/AdminDashboard";
 import UpdateProductPage from "./pages/admin/UpdateProductPage";
 import AddProductPage from "./pages/admin/AddProductPage";
-import MyState from "/home/user/ecommycopy/src/context/myState.jsx";
+import MyState from "./context/myState.jsx";
 import { Toaster } from "react-hot-toast";
 import { ProtectedRouteForUser } from "./protectedRoute/ProtectedRouteForUser";
 import { ProtectedRouteForAdmin } from "./protectedRoute/ProtectedRouteForAdmin";
